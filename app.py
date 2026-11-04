@@ -6,7 +6,7 @@ model=joblib.load("model.pkl")
 
 @app.route("/")
 def home():
-  return jsonify({"message":"App is running"})
+  return jsonify({"message":"Auto deploy version"})
 
 # @app.route("/predict",methods=["POST"])
 # def predict():
